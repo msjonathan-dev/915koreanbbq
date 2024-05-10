@@ -1,0 +1,203 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url('https://images.squarespace-cdn.com/content/v1/5a317985b1ffb6d925d978cf/1563573063511-30RWWV3UV2U92SKP2S6A/DSCF7514.jpg?format=2500w');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    white-space: nowrap;
+}
+
+header a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    padding: 0 20px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥢</text></svg>")
+        16 0, auto;
+}
+
+header a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    padding: 20px;
+}
+
+main {
+    padding: 150px;
+    overflow: hidden;
+}
+
+main h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 0px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#comingsoon {
+    color: yellow;
+}
+
+footer {
+    background-color: black;
+    padding: 0 40px;
+}
+
+footer h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+footer h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+footer address {
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+footer div {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥢</text></svg>")
+        16 0, auto;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+    header {
+        height: 800px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    main h1 {
+        font-size: 2.5rem;
+        white-space: nowrap;
+    }
+
+    main p {
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 600px;
+        background-size: 100vw 80vh;
+    }
+
+    main {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    header {
+        height: 600px;
+        background-size: 100vw 70vh;
+    }
+
+    main {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    main h1 {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+
+    main p {
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+}

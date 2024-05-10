@@ -1,0 +1,1 @@
+document.getElementById("copydate").innerHTML = new Date().getFullYear();
